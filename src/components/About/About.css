@@ -1,0 +1,147 @@
+
+.courses {
+    max-width: 1180px;
+    margin: 0 auto;
+    background-color: #f9fafc;
+    padding: 40px;
+  }
+  
+  .container {
+    max-width: 1180px;
+    margin: 0 auto;
+   
+  }
+  
+
+  .section-title {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+  }
+  
+  .section-title span {
+    color: #000000;
+  }
+  
+  .section-title p {
+    color: #666;
+    margin-top: 5px;
+  }
+  
+
+  .section-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .section-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .courses-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    flex: 1;
+  }
+  
+
+  .course-item {
+    width: 293px;
+    height: 276px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .course-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .course-item img {
+    width: 68px;
+    height: 68px;
+    margin-bottom: 15px;
+  }
+  
+  .course-item h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .course-item h3 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .course-item .btn-act {
+    width: 89px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #ffffff;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  
+  .course-item .btn-act:hover {
+    border: 1px solid #F3B01B;
+    color: white;
+    background: #F3B01B;
+    transition: 0.5s;
+  }
+  
+  .course-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .course-item p span {
+    display: block;
+  }
+  
+
+  .section-image {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+  }
+  
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+  }
+  
+
+  
+  .h2{
+    color: #f3af1bde;
+  }
+
+  
